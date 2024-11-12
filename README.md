@@ -4,6 +4,10 @@ This project is a simple slot machine game built using HTML, CSS, and JavaScript
 
 ![Slot Machine Screenshot](assets/slots.png)
 
+<div align="center">
+  <img src="assets/slots.png" alt="Slot Machine Screenshot" width="600">
+</div>
+
 ## Features
 - **Random Symbol Generation**: Each reel displays a random symbol from a predefined set.
 - **Spin Button**: A button allows users to spin the reels.
