@@ -2,10 +2,9 @@
 
 This project is a simple slot machine game built using HTML, CSS, and JavaScript. The app serves as a practice project for front-end web development skills, allowing users to spin three reels with random symbols and displays a message if all three symbols match.
 
-![Slot Machine Screenshot](assets/slots.png)
 
 <div align="center">
-  <img src="assets/slots.png" alt="Slot Machine Screenshot" width="600">
+  <img src="assets/slots.png" alt="Slot Machine Screenshot">
 </div>
 
 ## Features
