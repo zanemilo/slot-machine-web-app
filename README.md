@@ -11,12 +11,12 @@ This project is a simple slot machine game built using HTML, CSS, and JavaScript
 - **Random Symbol Generation**: Each reel displays a random symbol from a predefined set.
 - **Spin Button**: A button allows users to spin the reels.
 - **Win Detection**: Displays a message if all three symbols match, otherwise prompts to "Try Again".
-- **Animated Reels**: Reels spin with a simple animation effect. (Bugged visually)
+- **Animation**: Icons spin with a simple animation effect.
 
 ## Technology Stack
 - HTML: Provides the structure for the slot machine game.
 - CSS: Styles the layout and animations.
-- JavaScript: Handles the logic for spinning the reels, generating random symbols, and checking win conditions.
+- JavaScript: Handles the logic for spinning the icons, generating random symbols, and checking win conditions.
 
 ## How to Run
 To run the project locally:
@@ -29,10 +29,10 @@ To run the project locally:
 
 ## Future Development Plans
 ### Enhancements & UI Improvements
-- Improve reel animations and address any visual glitches.
 - Add sound effects for spinning reels and win notifications.
 - Implement a scoring system to track user winnings.
 - Optimize the game for mobile and tablet devices.
+- Implement reel animations.
 
 ### Advanced Features
 - Introduce a virtual currency system with betting options.
