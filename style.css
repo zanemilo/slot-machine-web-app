@@ -14,6 +14,8 @@ body {
     color: white;
 }
 
+
+
 .container {
     text-align: center;
 }
@@ -23,10 +25,16 @@ body {
     gap: 10px;
     margin-bottom: 20px;
 }
+
 @keyframes spin {
-    0% {transform: translateY(0);}
-    100% {transform: translateY(-100%);}
-}
+    from {
+      transform: rotate(0deg) skewY(-4deg);
+    }
+    to {
+      transform: rotate(360deg) skewY(4deg);
+    }
+  }
+
 .reel {
     width: 80px;
     height: 80px;
@@ -62,3 +70,5 @@ button:hover {
     margin-top: 20px;
     font-size: 1.2rem;
 }
+
+
