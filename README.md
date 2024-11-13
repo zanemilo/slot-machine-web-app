@@ -1,6 +1,6 @@
 # Slot Machine Web App
 
-This project is a simple slot machine game built using HTML, CSS, and JavaScript. The app serves as a practice project for front-end web development skills, allowing users to spin three reels with random symbols and displays a message if all three symbols match.
+This project is a simple slot machine game built using HTML, CSS, and JavaScript. The app serves as a practice project for front-end web development skills, allowing users to spin three icons with random symbols and displays a message if all three symbols match.
 
 
 <div align="center">
@@ -9,7 +9,7 @@ This project is a simple slot machine game built using HTML, CSS, and JavaScript
 
 ## Features
 - **Random Symbol Generation**: Each reel displays a random symbol from a predefined set.
-- **Spin Button**: A button allows users to spin the reels.
+- **Spin Button**: A button allows users to spin the icons.
 - **Win Detection**: Displays a message if all three symbols match, otherwise prompts to "Try Again".
 - **Animation**: Icons spin with a simple animation effect.
 
@@ -40,8 +40,8 @@ To run the project locally:
 - Deploy the app using platforms like GitHub Pages or Netlify.
 
 ## Known Issues
-- **Spinning Animation Bug**: The reels currently show a visual glitch where symbols move upwards twice before completing the spin. This issue does not affect the core functionality but may disrupt the user experience.
-  - Planned fix: Adjust CSS keyframes and JavaScript logic to correct the spinning effect.
+- **Spinning Animation Bug**: The Spin button can be spammed allowing user to rapid cycle through spins, which interrupts the animation.
+  - Planned fix: Adjust JavaScript logic to make the button 'toggle-able' via boolean variable.
 
 ## License
 This project is open-source and available under the MIT License.
