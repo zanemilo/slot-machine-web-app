@@ -28,11 +28,13 @@ body {
 
 @keyframes spin {
     from {
-      transform: rotate(0deg) skewY(-4deg);
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg) skewY(4deg);
+        transform:  rotate(360deg);
     }
+
+    
   }
 
 .reel {
@@ -50,7 +52,7 @@ body {
 }
 
 .reel.spin {
-    animation: spin 0.5s ease-in-out infinite;
+    animation: spin 1.1098s ease-in-out ;
 }
 
 button {

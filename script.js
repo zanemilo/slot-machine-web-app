@@ -41,9 +41,9 @@ function spinReels() {
         if (reel1.textContent === reel2.textContent && reel2.textContent === reel3.textContent) {
             message.textContent = "🎉 You Win!";
         } else {
-            message.textContent = "Try Again. . ."
+            message.textContent = "Try Again..."
         }
     }, 1000);
 }
 
-spinButton.addEventListener("click", spinReels);
+spinButton.addEventListener("click", spinReels, true);
