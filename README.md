@@ -22,7 +22,7 @@ This project is a simple slot machine game built using HTML, CSS, and JavaScript
 To run the project locally:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/zanemilo/slot-machine.git
+    git clone https://github.com/zanemilo/slot-machine-web-app
     cd slot-machine
     ```
 2. Open the `index.html` file in your web browser.
